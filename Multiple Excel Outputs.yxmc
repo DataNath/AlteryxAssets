@@ -1,0 +1,1265 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="54" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <Optional value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="12" />
+              <Fields>
+                <Field name="Region" />
+                <Field name="Amount" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>North</c>
+                  <c>123</c>
+                </r>
+                <r>
+                  <c>East</c>
+                  <c>600</c>
+                </r>
+                <r>
+                  <c>South</c>
+                  <c>476</c>
+                </r>
+                <r>
+                  <c>West</c>
+                  <c>369</c>
+                </r>
+                <r>
+                  <c>North</c>
+                  <c>841</c>
+                </r>
+                <r>
+                  <c>East</c>
+                  <c>127</c>
+                </r>
+                <r>
+                  <c>North</c>
+                  <c>543</c>
+                </r>
+                <r>
+                  <c>East</c>
+                  <c>743</c>
+                </r>
+                <r>
+                  <c>North</c>
+                  <c>241</c>
+                </r>
+                <r>
+                  <c>West</c>
+                  <c>963</c>
+                </r>
+                <r>
+                  <c>South</c>
+                  <c>653</c>
+                </r>
+                <r>
+                  <c>North</c>
+                  <c>780</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Input</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Region" size="5" source="TextInput:" type="String" />
+            <Field name="Amount" source="TextInput:" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+        <Position x="1770" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Drop Down (11)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1782" y="162" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
+        <Position x="1578" y="414" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Radio Button (14)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
+        <Position x="354" y="390" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Radio Button (17)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+        <Position x="498" y="126" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Drop Down (18)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="510" y="246" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.FolderBrowse.FolderBrowse">
+        <Position x="1074" y="66" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Folder Browse (29)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1206" y="198" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="366" y="498" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1590" y="522" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+        <Position x="618" y="390" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Text Box (20)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="630" y="498" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1002" y="198" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="474" y="1038" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="26" />
+          <Fields>
+            <Field name="Forbidden char" />
+            <Field name="Replacement" />
+          </Fields>
+          <Data>
+            <r>
+              <c>@</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>$</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>%</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>&amp;</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>\</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>/</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>:</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>*</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>?</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>"</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>'</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>&lt;</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>&gt;</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>|</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>~</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>`</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>#</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>^</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>+</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>=</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>{</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>}</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>[</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>]</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>;</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+            <r>
+              <c>!</c>
+              <c><![CDATA[ ]]></c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Forbidden char" size="1" source="TextInput:" type="String" />
+            <Field name="Replacement" size="1" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1146" y="450" width="336" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Created by @DataNath
+
+Icon courtesy of: https://www.flaticon.com</Text>
+          <Font name="Arial Narrow" size="21.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="1" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1266" y="882" width="528" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>The Find &amp; Replace, coupled with the Data Cleanse is used to correct records that may cause unacceptable filenames. These tools will remove unsuitable characters and then the duplicate whitespace that this replacement creates.
+
+For example: A field containing '# N / A' would be saved as 'N A'.</Text>
+          <Font name="Arial" size="11.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="473" y="772" width="761" height="250" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Output to multiple sheets</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="498" y="821" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="'Filename'" field="Name of file" size="1073741823" type="V_WString" />
+                <FormulaField expression="[Region]" field="Sheet name" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Name of file = 'Filename'
+Sheet name = [Region]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Region" size="5" source="TextInput:" type="String" />
+                <Field name="Amount" source="TextInput:" type="Int16" />
+                <Field name="Name of file" size="1073741823" source="Formula: 'Filename'" type="V_WString" />
+                <Field name="Sheet name" size="1073741823" source="Formula: [Region]" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="918" y="846" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Name of file" selected="False" />
+                <SelectField field="Sheet name" selected="False" />
+                <SelectField field="Multiple files" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Region" size="5" source="TextInput:" type="String" />
+                <Field name="Amount" source="TextInput:" type="Int16" />
+                <Field name="Multiple sheets" size="1073741823" source="Formula: &quot;G:\My Drive\My Documents\Alteryx\Community macros\Multiple Excel Outputs\Testing\&quot;+[Name of file]+&quot;.xlsx|||&quot;+[Sheet name]" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="798" y="846" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="&quot;G:\My Drive\My Documents\Alteryx\Community macros\Multiple Excel Outputs\Testing\&quot;+[Name of file]+&quot;.xlsx|||&quot;+[Sheet name]" field="Multiple sheets" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Multiple sheets = "G:\My Drive\My Documents\Alteryx\Community macros\Multiple Ex...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Region" size="5" source="TextInput:" type="String" />
+                <Field name="Amount" source="TextInput:" type="Int16" />
+                <Field name="Name of file" size="1073741823" source="Formula: 'Filename'" type="V_WString" />
+                <Field name="Sheet name" size="1073741823" source="Formula: [Region]" type="V_WString" />
+                <Field name="Multiple sheets" size="1073741823" source="Formula: &quot;G:\My Drive\My Documents\Alteryx\Community macros\Multiple Excel Outputs\Testing\&quot;+[Name of file]+&quot;.xlsx|||&quot;+[Sheet name]" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+            <Position x="594" y="834" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldFind>Name of file</FieldFind>
+              <FieldSearch>Forbidden char</FieldSearch>
+              <ReplaceFoundField>Replacement</ReplaceFoundField>
+              <FindMode>FindAny</FindMode>
+              <NoCase value="False" />
+              <MatchWholeWord value="False" />
+              <ReplaceMode>Replace</ReplaceMode>
+              <ReplaceMultipleFound value="True" />
+              <ReplaceAppendFields />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Region" size="5" source="TextInput:" type="String" />
+                <Field name="Amount" source="TextInput:" type="Int16" />
+                <Field name="Name of file" size="1073741823" source="Formula: 'Filename'" type="V_WString" />
+                <Field name="Sheet name" size="1073741823" source="Formula: [Region]" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+            <Position x="690" y="846" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldFind>Sheet name</FieldFind>
+              <FieldSearch>Forbidden char</FieldSearch>
+              <ReplaceFoundField>Replacement</ReplaceFoundField>
+              <FindMode>FindAny</FindMode>
+              <NoCase value="False" />
+              <MatchWholeWord value="False" />
+              <ReplaceMode>Replace</ReplaceMode>
+              <ReplaceMultipleFound value="True" />
+              <ReplaceAppendFields />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Region" size="5" source="TextInput:" type="String" />
+                <Field name="Amount" source="TextInput:" type="Int16" />
+                <Field name="Name of file" size="1073741823" source="Formula: 'Filename'" type="V_WString" />
+                <Field name="Sheet name" size="1073741823" source="Formula: [Region]" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1122" y="846" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="25">.\.Filename.xlsx|||Sheet1</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <PreserveFormat>False</PreserveFormat>
+                <SkipFieldNames>False</SkipFieldNames>
+                <OutputOption>Create</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="True" />
+              <MultiFileType>Path</MultiFileType>
+              <MultiFileField>Multiple sheets</MultiFileField>
+              <KeepField value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>.Filename.xlsx
+Query=Sheet1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings>
+            <Position x="1026" y="846" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"Multiple sheets"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">True</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output26">
+              <RecordInfo>
+                <Field name="Region" size="5" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Amount" source="TextInput: (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int16" />
+                <Field name="Multiple sheets" size="1073741823" source="Formula: [_CurrentField_]" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1745" y="617" width="720" height="237" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Output to multiple files</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1770" y="666" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[Region]" field="Filename" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Filename = [Region]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Region" size="5" source="TextInput:" type="String" />
+                <Field name="Amount" source="TextInput:" type="Int16" />
+                <Field name="Filename" size="1073741823" source="Formula: [Region]" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="2106" y="678" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Filename" selected="False" />
+                <SelectField field="Multiple sheets" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Region" size="5" source="TextInput:" type="String" />
+                <Field name="Amount" source="TextInput:" type="Int16" />
+                <Field name="Multiple files" size="1073741823" source="Formula: &quot;G:\My Drive\My Documents\Alteryx\Community macros\Multiple Excel Outputs\Testing\&quot;+[Filename]+&quot;.xlsx|||Sheet1$&quot;" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+            <Position x="1914" y="678" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldFind>Filename</FieldFind>
+              <FieldSearch>Forbidden char</FieldSearch>
+              <ReplaceFoundField>Replacement</ReplaceFoundField>
+              <FindMode>FindAny</FindMode>
+              <NoCase value="False" />
+              <MatchWholeWord value="False" />
+              <ReplaceMode>Replace</ReplaceMode>
+              <ReplaceMultipleFound value="True" />
+              <ReplaceAppendFields />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Region" size="5" source="TextInput:" type="String" />
+                <Field name="Amount" source="TextInput:" type="Int16" />
+                <Field name="Filename" size="1073741823" source="Formula: [Region]" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="2010" y="678" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="&quot;G:\My Drive\My Documents\Alteryx\Community macros\Multiple Excel Outputs\Testing\&quot;+[Filename]+&quot;.xlsx|||Sheet1$&quot;" field="Multiple files" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Multiple files = "G:\My Drive\My Documents\Alteryx\Community macros\Multiple Exc...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Region" size="5" source="TextInput:" type="String" />
+                <Field name="Amount" source="TextInput:" type="Int16" />
+                <Field name="Filename" size="1073741823" source="Formula: [Region]" type="V_WString" />
+                <Field name="Multiple files" size="1073741823" source="Formula: &quot;G:\My Drive\My Documents\Alteryx\Community macros\Multiple Excel Outputs\Testing\&quot;+[Filename]+&quot;.xlsx|||Sheet1$&quot;" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="2346" y="678" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="25">.\.Output.xlsx|||Sheet1$</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <PreserveFormat>False</PreserveFormat>
+                <SkipFieldNames>False</SkipFieldNames>
+                <OutputOption>Create</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="True" />
+              <MultiFileType>Path</MultiFileType>
+              <MultiFileField>Multiple files</MultiFileField>
+              <KeepField value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>.Output.xlsx
+Query=Sheet1$</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="52">
+          <GuiSettings>
+            <Position x="2226" y="678" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"Multiple files"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">True</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output26">
+              <RecordInfo>
+                <Field name="Region" size="5" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Amount" source="TextInput: (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int16" />
+                <Field name="Multiple files" size="1073741823" source="Formula: [_CurrentField_]" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="12" Connection="Action" />
+      <Destination ToolID="2" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Question" />
+      <Destination ToolID="11" Connection="Question Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Question" />
+      <Destination ToolID="18" Connection="Question Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="19" Connection="Action" />
+      <Destination ToolID="39" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="21" Connection="Action" />
+      <Destination ToolID="39" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="11" Connection="Question" />
+      <Destination ToolID="12" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="14" Connection="Question" />
+      <Destination ToolID="37" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="17" Connection="Question" />
+      <Destination ToolID="36" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="18" Connection="Question" />
+      <Destination ToolID="19" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="29" Connection="Question" />
+      <Destination ToolID="30" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="29" Connection="Question" />
+      <Destination ToolID="38" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="30" Connection="Action" />
+      <Destination ToolID="45" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="36" Connection="Action" />
+      <Destination ToolID="35" Connection="Action" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="37" Connection="Action" />
+      <Destination ToolID="34" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="20" Connection="Question" />
+      <Destination ToolID="21" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="38" Connection="Action" />
+      <Destination ToolID="48" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="44" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="49" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="49" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="50" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="50" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="51" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output26" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="52" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output26" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Drop Down (11)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (1)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Radio Button (14)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Radio Button (17)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Drop Down (18)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Text Box (20)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Folder Browse (29)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Multiple Excel Outputs</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="0b7c35ad-d490-430d-9248-2c8d35c65340" />
+      <Telemetry>
+        <PreviousWorkflowId value="7cbf444a-e681-4fa8-a8e0-9578a476769e" />
+        <OriginWorkflowId value="066afd3a-274b-4b03-8b53-e7d4236a3556" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="36" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>35/Disabled/@value</Destination>
+              <Mapping>Enable/Disable Container from Question</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration />
+              <DefaultConfiguration value="True" />
+            </Action>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="37" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>34/Disabled/@value</Destination>
+              <Mapping>Enable/Disable Container from Question</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration />
+              <DefaultConfiguration value="True" />
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="30" />
+              <Expression>Replace([Destination], "G:\My Drive\My Documents\Alteryx\Community macros\Multiple Excel Outputs\Testing", [#1])</Expression>
+              <Destination>45/FormulaFields/FormulaField/@expression</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="21" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>Filename</ReplaceText>
+              <Destination>39/FormulaFields/FormulaField[@field='Name of file']/@expression</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="12" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>Region</ReplaceText>
+              <Destination>2/FormulaFields/FormulaField/@expression</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="19" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>Region</ReplaceText>
+              <Destination>39/FormulaFields/FormulaField[@field='Sheet name']/@expression</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="38" />
+              <Expression>Replace([Destination], "G:\My Drive\My Documents\Alteryx\Community macros\Multiple Excel Outputs\Testing", [#1])</Expression>
+              <Destination>48/FormulaFields/FormulaField/@expression</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (10)</Name>
+          <ToolId value="10" />
+          <Questions>
+            <Question>
+              <Type>FolderBrowse</Type>
+              <Description>Select a destination folder:</Description>
+              <Name>Folder Browse (29)</Name>
+              <ToolId value="29" />
+            </Question>
+            <Question>
+              <Type>RadioGroup</Type>
+              <Description>Output to multiple files</Description>
+              <Name>Radio Button (17)</Name>
+              <ToolId value="17" />
+              <Questions>
+                <Question>
+                  <Type>ListBox</Type>
+                  <Description>Select the file grouping field:</Description>
+                  <Name>Drop Down (11)</Name>
+                  <ToolId value="11" />
+                  <Multiple value="False" />
+                  <Default />
+                  <Mode>MacroField</Mode>
+                  <MacroField_InputTool value="1" />
+                  <Field_IncludeNone value="False" />
+                  <MacroField_FilterTypes>Bool,Byte,Int16,Int32,Int64,FixedDecimal,Float,Double,String,WString,V_String,V_WString,Date,Time,DateTime,Blob,SpatialObj</MacroField_FilterTypes>
+                </Question>
+              </Questions>
+              <Default value="False" />
+              <Collapsable value="True" />
+            </Question>
+            <Question>
+              <Type>RadioGroup</Type>
+              <Description>Output to multiple sheets</Description>
+              <Name>Radio Button (14)</Name>
+              <ToolId value="14" />
+              <Questions>
+                <Question>
+                  <Type>TextBox</Type>
+                  <Description>Enter a file name:</Description>
+                  <Name>Text Box (20)</Name>
+                  <ToolId value="20" />
+                  <Default />
+                  <Password value="False" />
+                  <Multiline value="False" />
+                  <Hidden value="False" />
+                </Question>
+                <Question>
+                  <Type>ListBox</Type>
+                  <Description>Select the sheet grouping field:</Description>
+                  <Name>Drop Down (18)</Name>
+                  <ToolId value="18" />
+                  <Multiple value="False" />
+                  <Default />
+                  <Mode>MacroField</Mode>
+                  <MacroField_InputTool value="1" />
+                  <Field_IncludeNone value="False" />
+                  <MacroField_FilterTypes>Bool,Byte,Int16,Int32,Int64,FixedDecimal,Float,Double,String,WString,V_String,V_WString,Date,Time,DateTime,Blob,SpatialObj</MacroField_FilterTypes>
+                </Question>
+              </Questions>
+              <Default value="False" />
+              <Collapsable value="True" />
+            </Question>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description />
+              <Name>Macro Input (1)</Name>
+              <ToolId value="1" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="1" Selected="True" />
+        <Tool ToolId="33" Selected="True" />
+        <Tool ToolId="51" Selected="True" />
+        <Tool ToolId="31" Selected="True" />
+        <Tool ToolId="52" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
